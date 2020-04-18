@@ -1,0 +1,171 @@
+#title{  background-color:#ff4c68;
+
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+font-family: 'Lilita One', cursive;
+font-size: 3.1rem;
+line-height:1.5;
+color:white;
+
+}
+.container-fluid
+{
+  padding:3% 15% 3%;
+}
+.btn btn-dark
+{
+  position:absolute;
+  position-left:200px;
+  position-top:50%;
+}
+/*Navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item
+{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.3rem;
+/*  font-family:"Montserrat-light";*/
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size:2rem;
+  font-weight: bold;
+}
+/*Download buttons*/
+.downloadbutton
+{
+ margin:5% 3% 5% 0;
+}
+/*title image*/
+.titleimage
+{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+.col-lg-6
+{
+  padding-left: 34px;
+}
+h2{
+  font-family:"Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1rem;
+}
+p{
+  color:grey;
+  line-height: 1rem;
+}
+.feature-box
+{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+#features
+{
+  padding:7% 15%;
+  position:relative;
+  background-color: white;
+}
+/*testimonial section*/
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:white;
+}
+.testimonial-image
+{
+  width:10%;
+  border-radius: 100%;
+   margin:20px;
+}
+#press{
+
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.press-logo
+{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#pricing
+{
+  padding:100px;
+  text-align: center;
+}
+.pricing-coloum
+{
+  padding:3% 2%;
+
+}
+@media (max-width:1028px){
+  #title{
+    text-align:center;
+  }
+  .titleimage{
+    position: static;
+    transform:rotate(0);
+  }
+
+}
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.abc{
+  color:white;
+  font-weight: bold;
+  margin3rem;
+  font-size: 2rem;
+
+
+
+
+}
+.def{
+  padding:3% 3%;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  padding:7% 15%;
+}
+.cde{
+  padding:1%;
+  padding-bottom: 2%;
+
+}
